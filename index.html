@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boodschappenlijstje</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div id="nameInputScreen" class="screen">
+    <h2>Vul je naam in</h2>
+    <input type="text" id="nameInput" placeholder="Je naam">
+    <button id="nextBtn">Volgende</button>
+</div>
+
+<div id="groceryListScreen" class="screen hidden">
+    <h2>Hallo <span id="userName"></span></h2>
+    <input type="text" id="groceryInput" placeholder="Voeg een item toe">
+    <button id="addItemBtn">Toevoegen</button>
+    <ul id="groceryList"></ul>
+    <button id="clearBtn">Lijst leegmaken</button>
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
